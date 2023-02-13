@@ -30,7 +30,7 @@ export default function Navigationbar() {
   return (
     <Fragment>
       <nav className="fixed top-0 left-0 w-full h-20 bg-white shadow-sm px-8 md:px-20 lg:px-40 py-4 flex justify-between items-center z-50">
-        <h1 className="font-burtons text-lg">Vladislav</h1>
+        <h1 className="font-burtons text-lg">VM</h1>
         <ul className="flex items-center">
           <Button
             className="px-4 py-2 bg-gradient-to-r from-cyan-500 text- to-teal-500 bg-blue-300 rounded-md ml-8 text-white"
@@ -45,6 +45,7 @@ export default function Navigationbar() {
           <Modal.Title>Contact Form</Modal.Title>
         </Modal.Header>
         <Modal.Body>
+          <p className="text-gray-500">To: vmarinov2001@gmail.com</p>
           <Formik
             validationSchema={schema}
             validateOnChange={false}

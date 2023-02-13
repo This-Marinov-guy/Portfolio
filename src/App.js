@@ -1,22 +1,18 @@
-import "./App.css";
 import Navigationbar from "./Navbar";
 import {
   AiFillLinkedin,
   AiFillGithub,
-  AiFillInstagram,
-  AiFillMail,
   AiFillEnvironment,
-  AiFillPhone,
 } from "react-icons/ai";
+import "./App.css";
 
 function App() {
   return (
     <main className="main px-8 md:px-20 lg:px-40">
       <Navigationbar />
-      <br />
       <section
         id="home"
-        className="min-h-screen text-center mt-4 flex flex-col justify-center "
+        className="min-h-screen text-center mt-14 flex flex-col justify-center "
       >
         <div className="mx-auto from-teal-500 rounded-full w-56 h-56 relative overflow-hidden md:h-96 md:w-96 mb-2">
           <img src="/avatar.png" layout="fill" objectFit="cover" />
@@ -31,9 +27,20 @@ function App() {
           start my career.
         </p>
         <div className="text-5xl py-4 flex justify-center gap-16 text-gray-600">
-          <AiFillLinkedin />
-          <AiFillGithub />
-          <AiFillInstagram />
+          <a
+            className="text-gray-500"
+            href="https://www.linkedin.com/in/vladislav-marinov-122455208/"
+            target="_blank"
+          >
+            <AiFillLinkedin />
+          </a>
+          <a
+            className="text-gray-500"
+            href="https://github.com/This-Marinov-guy"
+            target="_blank"
+          >
+            <AiFillGithub />
+          </a>
         </div>
       </section>
 
@@ -84,7 +91,6 @@ function App() {
           </div>
         </div>
       </section>
-      <br />
 
       <section id="license" className="mt-10">
         <h1 className="text-xl font-medium">Certifications</h1>
@@ -92,60 +98,70 @@ function App() {
           Here are some of the certifications I have.
         </p>
 
-        <div className="flex flex-col md:flex-row gap-8 mt-4">
+        <div className="flex flex-col md:flex-row gap-8 mt-14">
           <div className="w-full md:w-2/6 shadow-md rounded ">
             <div className="h-48 md:h-56 rounded-t-md relative overflow-hidden">
-              <img
-                src="https://source.unsplash.com/random"
-                layout="fill"
-                objectFit="cover"
-              />
+              <img src="academind.jpg" layout="fill" objectFit="cover" />
             </div>
             <div className="p-4">
-              <h1 className="text-xl font-medium">
-                Dasar Pemrograman Javascript
-              </h1>
-              <p className="">Dicoding Indonesia</p>
-              <p className="text-sm text-gray-500">May 2023</p>
+              <h1 className="text-xl font-medium">MERN Fullstack Guide</h1>
+              <p className="">MongoDB, Express.js, React.js, Node.js </p>
+              <p className="text-sm text-gray-500">November 2022</p>
             </div>
           </div>
 
           <div className="w-full md:w-2/6 shadow-md rounded ">
             <div className="h-48 md:h-56 rounded-t-md relative overflow-hidden">
-              <img
-                src="https://source.unsplash.com/random"
-                layout="fill"
-                objectFit="cover"
-              />
+              <img src="academind.jpg" layout="fill" objectFit="cover" />
             </div>
             <div className="p-4">
               <h1 className="text-xl font-medium">
-                Dasar Pemrograman Javascript
+                React - The Complete Guide{" "}
               </h1>
-              <p className="">Dicoding Indonesia</p>
-              <p className="text-sm text-gray-500">May 2023</p>
+              <p className="">Hooks, Routes, Next.js, Redux</p>
+              <p className="text-sm text-gray-500">June 2022</p>
             </div>
           </div>
 
           <div className="w-full md:w-2/6 shadow-md rounded ">
             <div className="h-48 md:h-56 rounded-t-md relative overflow-hidden">
-              <img
-                src="https://source.unsplash.com/random"
-                layout="fill"
-                objectFit="cover"
-              />
+              <img src="academind.jpg" layout="fill" objectFit="cover" />
             </div>
             <div className="p-4">
               <h1 className="text-xl font-medium">
-                Dasar Pemrograman Javascript
+                NodeJS - The Complete Guide{" "}
               </h1>
-              <p className="">Dicoding Indonesia</p>
-              <p className="text-sm text-gray-500">May 2023</p>
+              <p className="">Express.js, MongoDB, REST API, SQL</p>
+              <p className="text-sm text-gray-500">November 2022</p>
+            </div>
+          </div>
+          <div className="w-full md:w-2/6 shadow-md rounded ">
+            <div className="h-48 md:h-56 rounded-t-md relative overflow-hidden">
+              <img src="app_brewery.png" layout="fill" objectFit="cover" />
+            </div>
+            <div className="p-4">
+              <h1 className="text-xl font-medium">
+                The Complete 2022 Web Developer Bootcamp
+              </h1>
+              <p className="">Html, Css, JS, EJS, Bootstrap, Tailwind</p>
+              <p className="text-sm text-gray-500">April 2022</p>
+            </div>
+          </div>
+          <div className="w-full md:w-2/6 shadow-md rounded ">
+            <div className="h-48 md:h-56 rounded-t-md relative overflow-hidden">
+              <img src="ztm.png" layout="fill" objectFit="cover" />
+            </div>
+            <div className="p-4">
+              <h1 className="text-xl font-medium">
+                Complete Python Developer in 2022
+              </h1>
+              <p className="">Python, Beautiful Soup, Pygames</p>
+              <p className="text-sm text-gray-500">January 2022</p>
             </div>
           </div>
         </div>
       </section>
-      <br />
+
       <section id="service" className="">
         <h1 className="text-xl font-medium">My Projects</h1>
         <p className="mt-1 text-md">
@@ -171,7 +187,7 @@ function App() {
             </ul>
           </div>
 
-          <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
+          <div className="gradient-border w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
             <img src="cloud.png" className="w-48" alt="gambar" />
             <h2 className="text-xl">Cloud & IT Solutions Architect</h2>
             <p className="text-gray-500">
@@ -202,18 +218,33 @@ function App() {
           </div>
         </div>
       </section>
-      <br />
       <section id="footer" className="mt-5 rounded bg-black py-8 px-8">
         <div className="text-white md:text-center">
           <h1 className="font-medium text-lg">
             Contact me anytime about anything
           </h1>
+          <br />
 
-          <div className="flex text-xl text-white gap-4 mt-2 md:justify-center">
-            <AiFillLinkedin />
-            <AiFillGithub />
-            <AiFillInstagram />
-          </div>
+          <ul className="md:flex justify-center items-center gap-4">
+            <li className="flex gap-2">
+              <AiFillLinkedin />
+              <p>Vladislav Marinov</p>
+            </li>
+            <li className="flex gap-2">
+              <AiFillGithub />
+              <p>This-Marinov-Guy</p>
+            </li>
+            <li className="flex gap-2">
+              <AiFillEnvironment />
+              <p>London, UK | Burgas, BG</p>{" "}
+            </li>
+          </ul>
+          <hr className="my-2 border-white-200 sm:mx-auto dark:border-white-700 lg:my-8"/>
+
+        <p className="text-center text-sm text-gray-300 sm:text-center">
+          © 2023
+        </p>
+
         </div>
       </section>
     </main>
