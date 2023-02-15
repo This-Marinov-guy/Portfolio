@@ -5,6 +5,7 @@ import {
   AiFillEnvironment,
 } from "react-icons/ai";
 import "./App.css";
+import { Button } from "react-bootstrap";
 
 function App() {
   return (
@@ -53,40 +54,63 @@ function App() {
 
         <div className="mt-4 flex flex-col md:flex-row gap-8">
           <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
-            <img src="profile.png" className="w-48" alt="gambar" />
+            <img src="profile.png" className="w-48 mb-4" alt="gambar" />
             <h2 className="text-xl">That's me</h2>
             <ul>
               <li>I see, I analyze, I do</li>
               <li> I am a creative SOLO player and a key TEAM player</li>
             </ul>
-          </div>
-
-          <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
-            <img src="bayes.jpg" className="w-48" alt="gambar" />
-            <h2 className="text-xl">
-              BSc Business Management, Bayes BS (London, UK)
-            </h2>
-            <p className="text-gray-500">September 2020 - May 2023</p>
-            <p className="text-xl">Skills and Knowledge</p>
+            <p className="text-xl">
+              About me
+            </p>
             <ul>
-              <li>Management, Strategy, Analysis</li>
-              <li>Accounting, Finance, Economics</li>
-              <li>Enterprenuership, Crtitical Thinking, Mentoring</li>
+              <li className="mb-2">Born on 11.09.2001</li>
+              <li className="flex items-center justify-center flex-row mb-2">Bulgarian Nationality<img className='ml-2 w-8' src='flag.png'></img></li>
+              <li className="mb-2">Interests: Web Developement, Business Environment, Corporate World</li>
+              <li>Hobbies: Competitive Sailing, Outdoors Activities & Fitness, Cinema</li>
             </ul>
           </div>
 
           <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
-            <img src="udemy.png" className="w-48" alt="gambar" />
+            <img src="bayes.jpg" className="w-48 mb-4" alt="gambar" />
+            <h2 className="text-xl">
+              BSc Business Management, Bayes BS (London, UK)
+            </h2>
+            <p className="text-gray-500">September 2020 - May 2023</p>
+            <p className="text-xl">Strenghts</p>
+            <ul>
+              <li>Management</li>
+              <li>Economics</li>
+              <li>Strategy</li>
+            </ul>
+            <p className="text-xl">Main Modules</p>
+            <ul>
+              <li>Stage 1: Management, Crtitical Thinking, Enterprenuership</li>
+              <li>Stage 2: Accounting, Finance, Economics</li>
+              <li>Stage 3: Strategy, Corporate Governance, Research and Data Analysis</li>
+            </ul>
+          </div>
+
+          <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
+            <img src="udemy.png" className="w-48 mb-4" alt="gambar" />
             <h2 className="text-xl">Full Stack Developer, Udemy</h2>
-            <p className="text-gray-500">
-              Self-taught web developer that constantly wants to learn, gain
-              experience and improve
-            </p>
             <p className="text-xl ">Skills</p>
             <ul>
               <li>Html, Css, Javascript, Python</li>
               <li>React, Node.js, Express.js, MongoDB</li>
-              <li>MERN</li>
+              <li>REST API, SQL</li>
+            </ul>
+            <p className="text-xl">What I do</p>
+            <ul>
+              <li>Build React UI</li>
+              <li>BUild REST API</li>
+              <li>Connect A and B</li>
+            </ul>
+            <p className="text-xl">What I WANT to do</p>
+            <ul>
+              <li>Gain exprerience in the field</li>
+              <li>Evolve my skills while simultanioucly build new ones</li>
+              <li>Work in projects with great potential and high value</li>
             </ul>
           </div>
         </div>
@@ -99,10 +123,11 @@ function App() {
         </p>
 
         <div className="flex flex-col md:flex-row gap-8 mt-14">
-          <div className="w-full md:w-2/6 shadow-md rounded ">
-            <div className="h-48 md:h-56 rounded-t-md relative overflow-hidden">
-              <img src="academind.jpg" layout="fill" objectFit="cover" />
-            </div>
+          <div className="flex md:flex-col w-full md:w-2/6 shadow-md rounded ">
+            <img
+              className="sm:flex sm:self-center h-48 md:h-56 rounded-t-md"
+              src="academind.jpg"
+            />
             <div className="p-4">
               <h1 className="text-xl font-medium">MERN Fullstack Guide</h1>
               <p className="">MongoDB, Express.js, React.js, Node.js </p>
@@ -110,10 +135,11 @@ function App() {
             </div>
           </div>
 
-          <div className="w-full md:w-2/6 shadow-md rounded ">
-            <div className="h-48 md:h-56 rounded-t-md relative overflow-hidden">
-              <img src="academind.jpg" layout="fill" objectFit="cover" />
-            </div>
+          <div className="flex md:flex-col w-full md:w-2/6 shadow-md rounded ">
+            <img
+              className="sm:flex sm:self-center h-48 md:h-56 rounded-t-md"
+              src="academind.jpg"
+            />
             <div className="p-4">
               <h1 className="text-xl font-medium">
                 React - The Complete Guide{" "}
@@ -123,10 +149,11 @@ function App() {
             </div>
           </div>
 
-          <div className="w-full md:w-2/6 shadow-md rounded ">
-            <div className="h-48 md:h-56 rounded-t-md relative overflow-hidden">
-              <img src="academind.jpg" layout="fill" objectFit="cover" />
-            </div>
+          <div className="flex md:flex-col w-full md:w-2/6 shadow-md rounded ">
+            <img
+              className="sm:flex sm:self-center h-48 md:h-56 rounded-t-md"
+              src="academind.jpg"
+            />
             <div className="p-4">
               <h1 className="text-xl font-medium">
                 NodeJS - The Complete Guide{" "}
@@ -135,10 +162,11 @@ function App() {
               <p className="text-sm text-gray-500">November 2022</p>
             </div>
           </div>
-          <div className="w-full md:w-2/6 shadow-md rounded ">
-            <div className="h-48 md:h-56 rounded-t-md relative overflow-hidden">
-              <img src="app_brewery.png" layout="fill" objectFit="cover" />
-            </div>
+          <div className="flex md:flex-col w-full md:w-2/6 shadow-md rounded ">
+            <img
+              className="sm:flex sm:self-center h-48 md:h-56 rounded-t-md"
+              src="app_brewery.png"
+            />
             <div className="p-4">
               <h1 className="text-xl font-medium">
                 The Complete 2022 Web Developer Bootcamp
@@ -147,10 +175,11 @@ function App() {
               <p className="text-sm text-gray-500">April 2022</p>
             </div>
           </div>
-          <div className="w-full md:w-2/6 shadow-md rounded ">
-            <div className="h-48 md:h-56 rounded-t-md relative overflow-hidden">
-              <img src="ztm.png" layout="fill" objectFit="cover" />
-            </div>
+          <div className="flex md:flex-col w-full md:w-2/6 shadow-md rounded ">
+            <img
+              className="sm:flex sm:self-center h-48 md:h-56 rounded-t-md"
+              src="ztm.png"
+            />
             <div className="p-4">
               <h1 className="text-xl font-medium">
                 Complete Python Developer in 2022
@@ -173,48 +202,69 @@ function App() {
 
         <div className="mt-4 flex flex-col md:flex-row gap-8">
           <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
-            <img src="software.png" className="w-48" alt="gambar" />
-            <h2 className="text-xl">Software Development</h2>
+          <video src='alien.mp4' className='w-100' autoPlay loop muted />
+            <h2 className="text-xl  mt-4">Alien Invader Game</h2>
             <p className="text-gray-500">
-              I can help you solve a problem, build a product or grow existing
-              project.
+              A fun 'Rick & Morty' adaptation of an OG game where you shoot aliens before they come to hit your ship
+            </p>
+            <p className="text-xl ">Tools I Use</p>
+            <ul>
+              <li>Python</li>
+              <li>PyGames</li>
+            </ul>
+            <Button
+              className="self-center"
+              href="https://food-order-cf412.web.app/"
+              target="_blank"
+              variant="info"
+            >
+              Show me
+            </Button>
+          </div>
+
+          <div className="gradient-border w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
+            <img src="project_organizer.png" className="w-48" alt="gambar" />
+            <h2 className="text-xl mt-4">Project Organiser</h2>
+            <p className="text-gray-500">
+              My biggest portfolio project. This is a project management app where you can make projects with tasks and participants. Everyone can see, add or edit tasks as well as every admin can add or remove participants. Each project also has a chat option.
+            </p>
+            <p className="text-xl">Tools I Use</p>
+            <ul>
+              <li>MERN stack</li>
+              <li>Authentication and Authorization</li>
+              <li>Real-time Database</li>
+              <li>Bootstrap, Formik and Yup</li>
+            </ul>
+            <Button
+              className="self-center"
+              href="https://food-order-cf412.web.app/"
+              target="_blank"
+              variant="warning"
+            >
+              Show me
+            </Button>
+          </div>
+
+          <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
+            <img src="food_order.png" className="w-100" alt="gambar" />
+            <h2 className="text-xl  mt-4">Food Order App</h2>
+            <p className="text-gray-500">
+             My first basic project. This is a Dummy app to order food and checkout your cart ... that's more or less all
             </p>
             <p className="text-xl ">Tools I Use</p>
             <ul>
               <li>React</li>
-              <li>Node JS (Express)</li>
-              <li>Python (Flask)</li>
+              <li>React hooks</li>
+              <li>Firebase Database</li>
             </ul>
-          </div>
-
-          <div className="gradient-border w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
-            <img src="cloud.png" className="w-48" alt="gambar" />
-            <h2 className="text-xl">Cloud & IT Solutions Architect</h2>
-            <p className="text-gray-500">
-              I can help you solve a problem, build a product or grow existing
-              project.
-            </p>
-            <p className="text-xl">Tools I Use</p>
-            <ul>
-              <li>AWS, Azure, Digital Ocean</li>
-              <li>Openstack</li>
-              <li>Kubernetes & Docker</li>
-            </ul>
-          </div>
-
-          <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
-            <img src="ops.png" className="w-48" alt="gambar" />
-            <h2 className="text-xl">DevOps Architect</h2>
-            <p className="text-gray-500">
-              I can help you solve a problem, build a product or grow existing
-              project.
-            </p>
-            <p className="text-xl ">Tools I Use</p>
-            <ul>
-              <li>Gitlab</li>
-              <li>Ansible</li>
-              <li></li>
-            </ul>
+            <Button
+              className="self-center"
+              href="https://food-order-cf412.web.app/"
+              target="_blank"
+              variant="info"
+            >
+              Show me
+            </Button>
           </div>
         </div>
       </section>
@@ -239,12 +289,11 @@ function App() {
               <p>London, UK | Burgas, BG</p>{" "}
             </li>
           </ul>
-          <hr className="my-2 border-white-200 sm:mx-auto dark:border-white-700 lg:my-8"/>
+          <hr className="my-2 border-white-200 sm:mx-auto dark:border-white-700 lg:my-8" />
 
-        <p className="text-center text-sm text-gray-300 sm:text-center">
-          © 2023
-        </p>
-
+          <p className="text-center text-sm text-gray-300 sm:text-center">
+            © 2023
+          </p>
         </div>
       </section>
     </main>

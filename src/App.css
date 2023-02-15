@@ -34,6 +34,11 @@ section {
   margin-top: 3rem;
 }
 
+ul {
+  padding: 0%;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -45,7 +50,7 @@ section {
 
 
 .gradient-border {
-  --border-width: 3px;
+  --border-width: 6px;
   position: relative;
   display: flex;
   justify-content: center;
