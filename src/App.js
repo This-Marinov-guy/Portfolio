@@ -237,7 +237,7 @@ function App() {
             </ul>
             <Button
               className="self-center"
-              href="https://food-order-cf412.web.app/"
+              href="https://project-organiser-49325.web.app/"
               target="_blank"
               variant="warning"
             >
