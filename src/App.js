@@ -214,7 +214,7 @@ function App() {
             </ul>
             <Button
               className="self-center"
-              href="https://food-order-cf412.web.app/"
+              href="https://github.com/This-Marinov-guy/Alien-Invasion-Game"
               target="_blank"
               variant="info"
             >
@@ -223,7 +223,7 @@ function App() {
           </div>
 
           <div className="gradient-border w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
-            <img src="project_organizer.png" className="w-48" alt="gambar" />
+            <img src="project_organizer.png" className="w-80" alt="gambar" />
             <h2 className="text-xl mt-4">Project Organiser</h2>
             <p className="text-gray-500">
               My biggest portfolio project. This is a project management app where you can make projects with tasks and participants. Everyone can see, add or edit tasks as well as every admin can add or remove participants. Each project also has a chat option.
@@ -237,7 +237,7 @@ function App() {
             </ul>
             <Button
               className="self-center"
-              href="https://project-organiser-49325.web.app/"
+              href="https://project-organiser.onrender.com"
               target="_blank"
               variant="warning"
             >
