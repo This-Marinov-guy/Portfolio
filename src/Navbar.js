@@ -53,10 +53,10 @@ export default function Navigationbar() {
               setLoading(true);
               emailjs
                 .send(
-                  "service_a4evxyb",
-                  "template_ppyo88c",
+                  process.env.REACT_APP_EMAILJS_SERVICE_KEY,
+                  process.env.REACT_APP_EMAILJS_TEMPLATE_KEY,
                   values,
-                  "D4tHay3nj6NRTXu9w"
+                  process.env.REACT_APP_EMAILJS_PUBLIC_KEY
                 )
                 .then(
                   (result) => {
