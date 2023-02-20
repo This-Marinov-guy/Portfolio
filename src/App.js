@@ -237,7 +237,7 @@ function App() {
             </ul>
             <Button
               className="self-center"
-              href="https://project-organiser.onrender.com"
+              href="https://project-organiser-1fb39.web.app"
               target="_blank"
               variant="warning"
             >
