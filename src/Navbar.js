@@ -1,5 +1,7 @@
 import React, { Fragment, useState } from "react";
 import emailjs from "emailjs-com";
+import dotenv from "dotenv";
+dotenv.config();
 import * as yup from "yup";
 import { Formik } from "formik";
 import Form from "react-bootstrap/Form";
@@ -53,10 +55,11 @@ export default function Navigationbar() {
               setLoading(true);
               emailjs
                 .send(
-                  "%EMAILJS_SERVICE_KEY%",
-                  "%EMAILJS_TEMPLATE_KEY%",
+                  process.env.EMAILJS_SERVICE_KEY
+                  ,
+                  process.env.EMAILJS_TEMPLATE_KEY,
                   values,
-                  "%EMAILJS_PUBLIC_KEY%"
+                  process.env.EMAILJS_PUBLIC_KEY
                 )
                 .then(
                   (result) => {
