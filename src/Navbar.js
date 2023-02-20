@@ -51,13 +51,12 @@ export default function Navigationbar() {
             validateOnChange={false}
             onSubmit={(values) => {
               setLoading(true);
-              emailjs.init(process.env.EMAILJS_USER_ID);
               emailjs
                 .send(
-                  process.env.REACT_APP_EMAILJS_SERVICE_KEY,
-                  process.env.REACT_APP_EMAILJS_TEMPLATE_KEY,
+                  "service_a4evxyb",
+                  "template_ppyo88c",
                   values,
-                  process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+                  "D4tHay3nj6NRTXu9w"
                 )
                 .then(
                   (result) => {
