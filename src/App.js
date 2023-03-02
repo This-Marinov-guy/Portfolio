@@ -49,7 +49,9 @@ function App() {
         <h1 className="text-xl font-medium">About me</h1>
         <p className="mt-1 text-md">
           I am a 21 years old university to-be graduate who strives for success
-          and is constantly aiming to improve as I learn
+          and is constantly aiming to improve as I learn.
+          <br/>
+          Simultaneously with my university work, I am freelancing. Currently I am working on a project to build a website for a Bulgarian society based in Groningen!
         </p>
 
         <div className="mt-4 flex flex-col md:flex-row gap-8">
@@ -57,17 +59,23 @@ function App() {
             <img src="profile.png" className="w-48 mb-4" alt="gambar" />
             <h2 className="text-xl">That's me</h2>
             <ul>
-              <li>I see, I analyze, I do</li>
               <li> I am a creative SOLO player and a key TEAM player</li>
             </ul>
-            <p className="text-xl">
-              About me
-            </p>
+            <p className="text-xl">About me</p>
             <ul>
               <li className="mb-2">Born on 11.09.2001</li>
-              <li className="flex items-center justify-center flex-row mb-2">Bulgarian Nationality<img className='ml-2 w-8' src='flag.png'></img></li>
-              <li className="mb-2">Interests: Web Developement, Business Environment, Corporate World</li>
-              <li>Hobbies: Competitive Sailing, Outdoors Activities & Fitness, Cinema</li>
+              <li className="flex items-center justify-center flex-row mb-2">
+                Bulgarian Nationality
+                <img className="ml-2 w-8" src="flag.png"></img>
+              </li>
+              <li className="mb-2">
+                Interests: Web Developement, Business Environment, Corporate
+                World
+              </li>
+              <li>
+                Hobbies: Competitive Sailing, Outdoors Activities & Fitness,
+                Cinema
+              </li>
             </ul>
           </div>
 
@@ -87,7 +95,10 @@ function App() {
             <ul>
               <li>Stage 1: Management, Crtitical Thinking, Enterprenuership</li>
               <li>Stage 2: Accounting, Finance, Economics</li>
-              <li>Stage 3: Strategy, Corporate Governance, Research and Data Analysis</li>
+              <li>
+                Stage 3: Strategy, Corporate Governance, Research and Data
+                Analysis
+              </li>
             </ul>
           </div>
 
@@ -103,15 +114,98 @@ function App() {
             <p className="text-xl">What I do</p>
             <ul>
               <li>Build React UI</li>
-              <li>BUild REST API</li>
+              <li>Build REST API</li>
               <li>Connect A and B</li>
             </ul>
             <p className="text-xl">What I WANT to do</p>
             <ul>
               <li>Gain exprerience in the field</li>
-              <li>Evolve my skills while simultanioucly build new ones</li>
+              <li>Evolve my skills while simultaneously build new ones</li>
               <li>Work in projects with great potential and high value</li>
             </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="service" className="">
+        <h1 className="text-xl font-medium">My Projects</h1>
+        <p className="mt-1 text-md">
+          I have experience in building an application and creating cloud
+          architecture as an integration to provide business and consumer
+          solutions. I offer a wide of service, including Frontend & Backend
+          Development, Cloud & IT Solutions Architect, DevOps Architect
+        </p>
+
+        <div className="mt-4 flex flex-col md:flex-row gap-8">
+          <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
+            <video src="alien.mp4" className="w-100" autoPlay loop muted />
+            <h2 className="text-xl  mt-4">Alien Invader Game</h2>
+            <p className="text-gray-500">
+              A fun 'Rick & Morty' adaptation of an OG game where you shoot
+              aliens before they come to hit your ship
+            </p>
+            <p className="text-xl ">Tools I Use</p>
+            <ul>
+              <li>Python</li>
+              <li>PyGames</li>
+            </ul>
+            <Button
+              className="self-center"
+              href="https://github.com/This-Marinov-guy/Alien-Invasion-Game"
+              target="_blank"
+              variant="info"
+            >
+              Show me
+            </Button>
+          </div>
+
+          <div className="gradient-border w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
+            <img src="project_organizer.png" className="w-80" alt="gambar" />
+            <h2 className="text-xl mt-4">Project Organiser</h2>
+            <p className="text-gray-500">
+              My biggest portfolio project. This is a project management app
+              where you can make projects with tasks and participants. Everyone
+              can see, add or edit tasks as well as every admin can add or
+              remove participants. Each project also has a chat option.
+            </p>
+            <p className="text-xl">Tools I Use</p>
+            <ul>
+              <li>MERN stack</li>
+              <li>Authentication and Authorization</li>
+              <li>Real-time Database</li>
+              <li>Bootstrap, Formik and Yup</li>
+            </ul>
+            <Button
+              className="self-center"
+              href="https://project-organiser-1fb39.web.app"
+              target="_blank"
+              variant="warning"
+            >
+              Show me
+            </Button>
+          </div>
+
+          <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
+            <img src="food_order.png" className="w-100" alt="gambar" />
+            <h2 className="text-xl  mt-4">Food Order App</h2>
+            <p className="text-gray-500">
+              My first basic project. This is a Dummy app to order food and
+              checkout your cart ... that's more or less all
+            </p>
+            <p className="text-xl ">Tools I Use</p>
+            <ul>
+              <li>React</li>
+              <li>React hooks</li>
+              <li>Firebase Database</li>
+            </ul>
+            <Button
+              className="self-center"
+              href="https://food-order-cf412.web.app/"
+              target="_blank"
+              variant="info"
+            >
+              Show me
+            </Button>
           </div>
         </div>
       </section>
@@ -191,83 +285,6 @@ function App() {
         </div>
       </section>
 
-      <section id="service" className="">
-        <h1 className="text-xl font-medium">My Projects</h1>
-        <p className="mt-1 text-md">
-          I have experience in building an application and creating cloud
-          architecture as an integration to provide business and consumer
-          solutions. I offer a wide of service, including Frontend & Backend
-          Development, Cloud & IT Solutions Architect, DevOps Architect
-        </p>
-
-        <div className="mt-4 flex flex-col md:flex-row gap-8">
-          <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
-          <video src='alien.mp4' className='w-100' autoPlay loop muted />
-            <h2 className="text-xl  mt-4">Alien Invader Game</h2>
-            <p className="text-gray-500">
-              A fun 'Rick & Morty' adaptation of an OG game where you shoot aliens before they come to hit your ship
-            </p>
-            <p className="text-xl ">Tools I Use</p>
-            <ul>
-              <li>Python</li>
-              <li>PyGames</li>
-            </ul>
-            <Button
-              className="self-center"
-              href="https://github.com/This-Marinov-guy/Alien-Invasion-Game"
-              target="_blank"
-              variant="info"
-            >
-              Show me
-            </Button>
-          </div>
-
-          <div className="gradient-border w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
-            <img src="project_organizer.png" className="w-80" alt="gambar" />
-            <h2 className="text-xl mt-4">Project Organiser</h2>
-            <p className="text-gray-500">
-              My biggest portfolio project. This is a project management app where you can make projects with tasks and participants. Everyone can see, add or edit tasks as well as every admin can add or remove participants. Each project also has a chat option.
-            </p>
-            <p className="text-xl">Tools I Use</p>
-            <ul>
-              <li>MERN stack</li>
-              <li>Authentication and Authorization</li>
-              <li>Real-time Database</li>
-              <li>Bootstrap, Formik and Yup</li>
-            </ul>
-            <Button
-              className="self-center"
-              href="https://project-organiser-1fb39.web.app"
-              target="_blank"
-              variant="warning"
-            >
-              Show me
-            </Button>
-          </div>
-
-          <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
-            <img src="food_order.png" className="w-100" alt="gambar" />
-            <h2 className="text-xl  mt-4">Food Order App</h2>
-            <p className="text-gray-500">
-             My first basic project. This is a Dummy app to order food and checkout your cart ... that's more or less all
-            </p>
-            <p className="text-xl ">Tools I Use</p>
-            <ul>
-              <li>React</li>
-              <li>React hooks</li>
-              <li>Firebase Database</li>
-            </ul>
-            <Button
-              className="self-center"
-              href="https://food-order-cf412.web.app/"
-              target="_blank"
-              variant="info"
-            >
-              Show me
-            </Button>
-          </div>
-        </div>
-      </section>
       <section id="footer" className="mt-5 rounded bg-black py-8 px-8">
         <div className="text-white md:text-center">
           <h1 className="font-medium text-lg">
