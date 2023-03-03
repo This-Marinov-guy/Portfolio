@@ -177,7 +177,7 @@ function App() {
             </ul>
             <Button
               className="self-center"
-              href="https://project-organiser-1fb39.web.app"
+              href="https://project-organiser.herokuapp.com"
               target="_blank"
               variant="warning"
             >
