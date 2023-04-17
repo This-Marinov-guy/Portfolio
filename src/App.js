@@ -1,9 +1,6 @@
 import Navigationbar from "./Navbar";
-import {
-  AiFillLinkedin,
-  AiFillGithub,
-  AiFillEnvironment,
-} from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import { BsFillFileEarmarkPersonFill } from "react-icons/bs";
 import "./App.css";
 import { Button } from "react-bootstrap";
 
@@ -42,16 +39,21 @@ function App() {
           >
             <AiFillGithub />
           </a>
+          <a className="text-gray-500" href="../public/cv.pdf" target="_blank">
+            <BsFillFileEarmarkPersonFill style={{ padding: "5px" }} />
+          </a>
         </div>
       </section>
 
       <section id="bio" className="">
         <h1 className="text-xl font-medium">About me</h1>
         <p className="mt-1 text-md">
-          I am a 21 years old university to-be graduate who strives for success
-          and is constantly aiming to improve as I learn.
-          <br/>
-          Simultaneously with my university work, I am freelancing. Currently I am working on a project to build a website for a Bulgarian society based in Groningen!
+          I am a 21 years old with a BSc degree in Business who strives for
+          success and is constantly aiming to improve as I learn.
+          <br />
+          Simultaneously with my university work, I am freelancing. Currently I
+          am working on a project to build a website for a Bulgarian society
+          based in Groningen!
         </p>
 
         <div className="mt-4 flex flex-col md:flex-row gap-8">
@@ -69,35 +71,11 @@ function App() {
                 <img className="ml-2 w-8" src="flag.png"></img>
               </li>
               <li className="mb-2">
-                Interests: Web Developement, Business Environment, Corporate
-                World
+                Interests: Web and AI, Travelling, Corporate World
               </li>
               <li>
                 Hobbies: Competitive Sailing, Outdoors Activities & Fitness,
-                Cinema
-              </li>
-            </ul>
-          </div>
-
-          <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
-            <img src="bayes.jpg" className="w-48 mb-4" alt="gambar" />
-            <h2 className="text-xl">
-              BSc Business Management, Bayes BS (London, UK)
-            </h2>
-            <p className="text-gray-500">September 2020 - May 2023</p>
-            <p className="text-xl">Strenghts</p>
-            <ul>
-              <li>Management</li>
-              <li>Economics</li>
-              <li>Strategy</li>
-            </ul>
-            <p className="text-xl">Main Modules</p>
-            <ul>
-              <li>Stage 1: Management, Crtitical Thinking, Enterprenuership</li>
-              <li>Stage 2: Accounting, Finance, Economics</li>
-              <li>
-                Stage 3: Strategy, Corporate Governance, Research and Data
-                Analysis
+                Enterprenuership
               </li>
             </ul>
           </div>
@@ -124,49 +102,72 @@ function App() {
               <li>Work in projects with great potential and high value</li>
             </ul>
           </div>
+
+          <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
+            <img src="bayes.jpg" className="w-48 mb-4" alt="gambar" />
+            <h2 className="text-xl">
+              BSc Business Management, Bayes BS (London, UK)
+            </h2>
+            <p className="text-gray-500">September 2020 - May 2023</p>
+            <p className="text-xl">Strenghts</p>
+            <ul>
+              <li>Management</li>
+              <li>Economics</li>
+              <li>Strategy</li>
+            </ul>
+            <p className="text-xl">Main Modules</p>
+            <ul>
+              <li>Stage 1: Management, Crtitical Thinking, Enterprenuership</li>
+              <li>Stage 2: Accounting, Finance, Economics</li>
+              <li>
+                Stage 3: Strategy, Corporate Governance, Research and Data
+                Analysis
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
       <section id="service" className="">
         <h1 className="text-xl font-medium">My Projects</h1>
         <p className="mt-1 text-md">
-          I have experience in building an application and creating cloud
-          architecture as an integration to provide business and consumer
-          solutions. I offer a wide of service, including Frontend & Backend
-          Development, Cloud & IT Solutions Architect, DevOps Architect
+          I have experience in building applications on my own and updating them
+          with time.
         </p>
 
-        <div className="mt-4 flex flex-col md:flex-row gap-8">
+        <div className=" gradient-border mt-4 flex flex-col md:flex-row gap-8">
           <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
-            <video src="alien.mp4" className="w-100" autoPlay loop muted />
-            <h2 className="text-xl  mt-4">Alien Invader Game</h2>
+            <img src="bgsg.png" className="w-100" alt="bgsg" />
+            <h2 className="text-xl  mt-4">BGSG Website</h2>
             <p className="text-gray-500">
-              A fun 'Rick & Morty' adaptation of an OG game where you shoot
-              aliens before they come to hit your ship
+              The project I am currently working on. It is a Bulgarian
+              association build in Groningen with the cause of bringing people
+              together, developing skills and having fun
             </p>
             <p className="text-xl ">Tools I Use</p>
             <ul>
-              <li>Python</li>
-              <li>PyGames</li>
+              <li>MERN stack</li>
+              <li>Authentication</li>
+              <li>Payments</li>
+              <li>Real-time Database</li>
+              <li>Scss, Formik + Yup, Stripe, AWS3</li>
             </ul>
             <Button
               className="self-center"
-              href="https://github.com/This-Marinov-guy/Alien-Invasion-Game"
+              href="https://bgsg-709a6.web.app/"
               target="_blank"
-              variant="info"
+              variant="warning"
             >
               Show me
             </Button>
           </div>
 
-          <div className="gradient-border w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
-            <img src="project_organizer.png" className="w-80" alt="gambar" />
+          <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
+            <img src="project_organizer.png" className="w-100" alt="gambar" />
             <h2 className="text-xl mt-4">Project Organiser</h2>
             <p className="text-gray-500">
-              My biggest portfolio project. This is a project management app
-              where you can make projects with tasks and participants. Everyone
-              can see, add or edit tasks as well as every admin can add or
-              remove participants. Each project also has a chat option.
+              A project management app where you can make projects with tasks
+              and participants, modify them and chat with each other
             </p>
             <p className="text-xl">Tools I Use</p>
             <ul>
@@ -179,7 +180,7 @@ function App() {
               className="self-center"
               href="https://project-organiser.herokuapp.com"
               target="_blank"
-              variant="warning"
+              variant="info"
             >
               Show me
             </Button>
@@ -294,22 +295,30 @@ function App() {
 
           <ul className="md:flex justify-center items-center gap-4">
             <li className="flex gap-2">
-              <AiFillLinkedin />
-              <p>Vladislav Marinov</p>
+              <a
+                className="footer_link"
+                href="https://www.linkedin.com/in/vladislav-marinov-122455208/"
+                target="_blank"
+              >
+                <AiFillLinkedin />
+                &nbsp; Vladislav Marinov
+              </a>
             </li>
             <li className="flex gap-2">
-              <AiFillGithub />
-              <p>This-Marinov-Guy</p>
-            </li>
-            <li className="flex gap-2">
-              <AiFillEnvironment />
-              <p>London, UK | Burgas, BG</p>{" "}
+              <a
+                className="footer_link"
+                href="https://github.com/This-Marinov-guy"
+                target="_blank"
+              >
+                <AiFillGithub />
+                &nbsp; This-Marinov-Guy
+              </a>
             </li>
           </ul>
           <hr className="my-2 border-white-200 sm:mx-auto dark:border-white-700 lg:my-8" />
 
           <p className="text-center text-sm text-gray-300 sm:text-center">
-            © 2023
+            ©2023 / London, UK
           </p>
         </div>
       </section>

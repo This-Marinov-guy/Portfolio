@@ -50,11 +50,9 @@ ul {
 
 
 .gradient-border {
+  padding: 50px 10px;
   --border-width: 6px;
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: white;
   border-radius: var(--border-width);
 }
@@ -87,4 +85,11 @@ ul {
   50% {
     background-position: 100% 50%;
   }
+}
+
+.footer_link{
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
