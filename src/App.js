@@ -154,7 +154,7 @@ function App() {
             </ul>
             <Button
               className="self-center"
-              href="https://bgsg-709a6.web.app/"
+              href="bulgariansocietygro.nl"
               target="_blank"
               variant="warning"
             >
