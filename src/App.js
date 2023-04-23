@@ -39,7 +39,7 @@ function App() {
           >
             <AiFillGithub />
           </a>
-          <a className="text-gray-500" href="../public/CV.pdf" target="_blank">
+          <a className="text-gray-500" href="../public/CV.pdf" download>
             <BsFillFileEarmarkPersonFill style={{ padding: "5px" }} />
           </a>
         </div>
