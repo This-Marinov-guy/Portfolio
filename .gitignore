@@ -9,6 +9,12 @@
 # testing
 /coverage
 
+#hosting
+/.firebase
+/.github
+.firebaserc
+firebase.json
+
 # production
 /build
 
