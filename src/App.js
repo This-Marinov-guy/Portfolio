@@ -156,7 +156,30 @@ function App() {
               className="self-center"
               href="bulgariansocietygro.nl"
               target="_blank"
-              variant="warning"
+              variant="info"
+            >
+              Show me
+            </Button>
+          </div>
+
+          <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
+            <img src="domakin.jpg" className="w-100" alt="gambar" />
+            <h2 className="text-xl mt-4">Domakin</h2>
+            <p className="text-gray-500">
+             A platform for real estate services such as property listing, viewings and accommodation transfers. Currently based in Groningen, the Netherlands
+            </p>
+            <p className="text-xl">Tools I Use</p>
+            <ul>
+              <li>MERN stack</li>
+              <li>Real-time Database</li>
+              <li>Bootstrap, Formik and Yup</li>
+
+            </ul>
+            <Button
+              className="self-center"
+              href="https://domakin.nl"
+              target="_blank"
+              variant="info"
             >
               Show me
             </Button>
@@ -179,29 +202,6 @@ function App() {
             <Button
               className="self-center"
               href="https://project-organiser.herokuapp.com"
-              target="_blank"
-              variant="info"
-            >
-              Show me
-            </Button>
-          </div>
-
-          <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
-            <img src="food_order.png" className="w-100" alt="gambar" />
-            <h2 className="text-xl  mt-4">Food Order App</h2>
-            <p className="text-gray-500">
-              My first basic project. This is a Dummy app to order food and
-              checkout your cart ... that's more or less all
-            </p>
-            <p className="text-xl ">Tools I Use</p>
-            <ul>
-              <li>React</li>
-              <li>React hooks</li>
-              <li>Firebase Database</li>
-            </ul>
-            <Button
-              className="self-center"
-              href="https://food-order-cf412.web.app/"
               target="_blank"
               variant="info"
             >
@@ -318,7 +318,7 @@ function App() {
           <hr className="my-2 border-white-200 sm:mx-auto dark:border-white-700 lg:my-8" />
 
           <p className="text-center text-sm text-gray-300 sm:text-center">
-            ©2023 / London, UK
+            ©2023 / London, UK / Burgas, BG
           </p>
         </div>
       </section>
