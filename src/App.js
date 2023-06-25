@@ -166,7 +166,7 @@ function App() {
             <img src="domakin.jpg" className="w-100" alt="gambar" />
             <h2 className="text-xl mt-4">Domakin</h2>
             <p className="text-gray-500">
-             A platform for real estate services such as property listing, viewings and accommodation transfers. Currently based in Groningen, the Netherlands
+              A platform for real estate services such as property listing, viewings and accommodation transfers. Currently based in Groningen, the Netherlands
             </p>
             <p className="text-xl">Tools I Use</p>
             <ul>
@@ -221,6 +221,18 @@ function App() {
           <div className="flex md:flex-col w-full md:w-2/6 shadow-md rounded ">
             <img
               className="sm:flex sm:self-center h-48 md:h-56 rounded-t-md"
+              src="laravel.png"
+            />
+            <div className="p-4">
+              <h1 className="text-xl font-medium">Laravel + Inertia.js + Vue3</h1>
+              <p className="">Laravel, Inertia, Vue3, Docker, MySql </p>
+              <p className="text-sm text-gray-500">June 2023</p>
+            </div>
+          </div>
+
+          <div className="flex md:flex-col w-full md:w-2/6 shadow-md rounded ">
+            <img
+              className="sm:flex sm:self-center h-48 md:h-56 rounded-t-md"
               src="academind.jpg"
             />
             <div className="p-4">
@@ -244,6 +256,9 @@ function App() {
             </div>
           </div>
 
+
+        </div>
+        <div className="flex flex-col md:flex-row gap-8 mt-14">
           <div className="flex md:flex-col w-full md:w-2/6 shadow-md rounded ">
             <img
               className="sm:flex sm:self-center h-48 md:h-56 rounded-t-md"
