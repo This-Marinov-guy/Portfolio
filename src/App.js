@@ -251,7 +251,7 @@ function App() {
                 Junior to Senior Web Developer
               </h1>
               <p className="">Docker, Security, SHH, Performance, Testing, CI/CD</p>
-              <p className="text-sm text-gray-500">August 2023</p>
+              <p className="text-sm text-gray-500">August 2022</p>
             </div>
           </div>
           <div className="flex md:flex-col w-full md:w-2/6 shadow-md rounded ">
