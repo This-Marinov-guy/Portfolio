@@ -233,17 +233,6 @@ function App() {
           <div className="flex md:flex-col w-full md:w-2/6 shadow-md rounded ">
             <img
               className="sm:flex sm:self-center h-48 md:h-56 rounded-t-md"
-              src="academind.jpg"
-            />
-            <div className="p-4">
-              <h1 className="text-xl font-medium">MERN Fullstack Guide</h1>
-              <p className="">MongoDB, Express.js, React.js, Node.js </p>
-              <p className="text-sm text-gray-500">November 2022</p>
-            </div>
-          </div>
-          <div className="flex md:flex-col w-full md:w-2/6 shadow-md rounded ">
-            <img
-              className="sm:flex sm:self-center h-48 md:h-56 rounded-t-md"
               src="ztm.png"
             />
             <div className="p-4">
@@ -252,6 +241,18 @@ function App() {
               </h1>
               <p className="">Docker, Security, SHH, Performance, Testing, CI/CD</p>
               <p className="text-sm text-gray-500">August 2022</p>
+            </div>
+          </div>
+
+          <div className="flex md:flex-col w-full md:w-2/6 shadow-md rounded ">
+            <img
+              className="sm:flex sm:self-center h-48 md:h-56 rounded-t-md"
+              src="academind.jpg"
+            />
+            <div className="p-4">
+              <h1 className="text-xl font-medium">MERN Fullstack Guide</h1>
+              <p className="">MongoDB, Express.js, React.js, Node.js </p>
+              <p className="text-sm text-gray-500">November 2022</p>
             </div>
           </div>
           <div className="flex md:flex-col w-full md:w-2/6 shadow-md rounded ">
