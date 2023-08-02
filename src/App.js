@@ -239,7 +239,7 @@ function App() {
               <h1 className="text-xl font-medium">
                 Junior to Senior Web Developer
               </h1>
-              <p className="">Docker, Security, SHH, Performance, Testing, CI/CD</p>
+              <p className="">Docker, Security, SSH, Performance, Testing, CI/CD</p>
               <p className="text-sm text-gray-500">August 2022</p>
             </div>
           </div>
