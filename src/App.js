@@ -186,27 +186,19 @@ function App() {
           </div>
 
           <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
-            <img src="project_organizer.png" className="w-100" alt="gambar" />
-            <h2 className="text-xl mt-4">Project Organiser</h2>
+            <img src="hia.png" className="w-100" alt="gambar" />
+            <h2 className="text-xl mt-4">Hia</h2>
             <p className="text-gray-500">
-              A project management app where you can make projects with tasks
-              and participants, modify them and chat with each other
+              A dating/meeting app under construction, that will connect people based on image/video and music interests
             </p>
             <p className="text-xl">Tools I Use</p>
             <ul>
-              <li>MERN stack</li>
-              <li>Authentication and Authorization</li>
-              <li>Real-time Database</li>
-              <li>Bootstrap, Formik and Yup</li>
+              <li>Laravel 10 + Vue3</li>
+              <li>Stripe Payments</li>
+              <li>SQL database MariaDB</li>
+              <li>Tailwind, Docker, Cloudinary</li>
             </ul>
-            <Button
-              className="self-center"
-              href="https://project-organiser.herokuapp.com"
-              target="_blank"
-              variant="info"
-            >
-              Show me
-            </Button>
+            <h4>Private</h4>
           </div>
         </div>
       </section>
