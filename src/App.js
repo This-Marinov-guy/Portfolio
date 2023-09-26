@@ -193,7 +193,7 @@ function App() {
             </p>
             <p className="text-xl">Tools I Use</p>
             <ul>
-              <li>Laravel 10 + Vue3</li>
+              <li>Laravel 10 + Inertia + Vue3</li>
               <li>Stripe Payments</li>
               <li>SQL database MariaDB</li>
               <li>Tailwind, Docker, Cloudinary</li>
