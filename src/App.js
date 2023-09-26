@@ -198,7 +198,6 @@ function App() {
               <li>SQL database MariaDB</li>
               <li>Tailwind, Docker, Cloudinary</li>
             </ul>
-            <h4>Private</h4>
           </div>
         </div>
       </section>
