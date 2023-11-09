@@ -71,11 +71,10 @@ function App() {
                 <img className="ml-2 w-8" src="flag.png"></img>
               </li>
               <li className="mb-2">
-                Interests: Web and AI, Travelling, Corporate World
+                Interests: Web and AI, Corporate World, Entrepreneurship,
               </li>
               <li>
-                Hobbies: Competitive Sailing, Outdoors Activities & Fitness,
-                Enterprenuership
+                Hobbies: Competitive Sailing, Tennis, Traveling
               </li>
             </ul>
           </div>
@@ -85,7 +84,7 @@ function App() {
             <h2 className="text-xl">Full Stack Developer, Udemy</h2>
             <p className="text-xl ">Skills</p>
             <ul>
-              <li>Html, Css, Javascript, PHP, Python</li>
+              <li>HTML, CSS, Javascript, PHP, Python</li>
               <li>React, Vue3 | Node.js, Express.js, Laravel</li>
               <li>REST API, SQL and NoSQL DBs</li>
             </ul>
@@ -97,7 +96,7 @@ function App() {
             </ul>
             <p className="text-xl">What I WANT to do</p>
             <ul>
-              <li>Gain exprerience in the field</li>
+              <li>Gain experience in the web field</li>
               <li>Evolve my skills while simultaneously build new ones</li>
               <li>Work in projects with great potential and high value</li>
             </ul>
@@ -109,7 +108,7 @@ function App() {
               BSc Business Management, Bayes BS (London, UK)
             </h2>
             <p className="text-gray-500">September 2020 - May 2023</p>
-            <p className="text-xl">Strenghts</p>
+            <p className="text-xl">Strengths</p>
             <ul>
               <li>Management</li>
               <li>Economics</li>
@@ -117,7 +116,7 @@ function App() {
             </ul>
             <p className="text-xl">Main Modules</p>
             <ul>
-              <li>Stage 1: Management, Crtitical Thinking, Enterprenuership</li>
+              <li>Stage 1: Management, Critical Thinking, Entrepreneurship</li>
               <li>Stage 2: Accounting, Finance, Economics</li>
               <li>
                 Stage 3: Strategy, Corporate Governance, Research and Data
@@ -298,7 +297,7 @@ function App() {
               <h1 className="text-xl font-medium">
                 Complete Python Developer in 2022
               </h1>
-              <p className="">Python, Beautiful Soup, Pygames</p>
+              <p className="">Python, Django, Pandas, Pygames</p>
               <p className="text-sm text-gray-500">January 2022</p>
             </div>
           </div>
