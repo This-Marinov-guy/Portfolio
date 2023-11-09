@@ -85,13 +85,13 @@ function App() {
             <h2 className="text-xl">Full Stack Developer, Udemy</h2>
             <p className="text-xl ">Skills</p>
             <ul>
-              <li>Html, Css, Javascript, Python</li>
-              <li>React, Node.js, Express.js, MongoDB</li>
-              <li>REST API, SQL</li>
+              <li>Html, Css, Javascript, PHP, Python</li>
+              <li>React, Vue3 | Node.js, Express.js, Laravel</li>
+              <li>REST API, SQL and NoSQL DBs</li>
             </ul>
             <p className="text-xl">What I do</p>
             <ul>
-              <li>Build React UI</li>
+              <li>Build UI</li>
               <li>Build REST API</li>
               <li>Connect A and B</li>
             </ul>
@@ -216,7 +216,7 @@ function App() {
             />
             <div className="p-4">
               <h1 className="text-xl font-medium">Laravel + Inertia.js + Vue3</h1>
-              <p className="">Laravel, Inertia, Vue3, Docker, MySql </p>
+              <p className="">PHP, Laravel, Inertia, Vue3, Docker, MySql </p>
               <p className="text-sm text-gray-500">June 2023</p>
             </div>
           </div>
