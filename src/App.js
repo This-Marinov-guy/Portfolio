@@ -58,7 +58,7 @@ function App() {
 
         <div className="mt-4 flex flex-col md:flex-row gap-8">
           <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
-            <img src="profile.png" className="w-48 mb-4" alt="gambar" />
+            <img src="profile.jpg" className="w-48 mb-4" alt="gambar" />
             <h2 className="text-xl">That's me</h2>
             <ul>
               <li> I am a creative SOLO player and a key TEAM player</li>
@@ -223,14 +223,12 @@ function App() {
           <div className="flex md:flex-col w-full md:w-2/6 shadow-md rounded ">
             <img
               className="sm:flex sm:self-center h-48 md:h-56 rounded-t-md"
-              src="ztm.png"
+              src="academind.png"
             />
             <div className="p-4">
-              <h1 className="text-xl font-medium">
-                Junior to Senior Web Developer
-              </h1>
-              <p className="">Docker, Security, SSH, Performance, Testing, CI/CD</p>
-              <p className="text-sm text-gray-500">August 2022</p>
+              <h1 className="text-xl font-medium">Symfony API Platform</h1>
+              <p className="">PHP, Symfony, REST API, SQL </p>
+              <p className="text-sm text-gray-500">November 2023</p>
             </div>
           </div>
 
@@ -271,7 +269,7 @@ function App() {
               <h1 className="text-xl font-medium">
                 NodeJS - The Complete Guide{" "}
               </h1>
-              <p className="">Express.js, MongoDB, REST API, SQL</p>
+              <p className="">Express.js, MongoDB, REST API, Docker</p>
               <p className="text-sm text-gray-500">November 2022</p>
             </div>
           </div>
