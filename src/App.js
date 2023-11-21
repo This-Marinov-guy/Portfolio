@@ -223,7 +223,7 @@ function App() {
           <div className="flex md:flex-col w-full md:w-2/6 shadow-md rounded ">
             <img
               className="sm:flex sm:self-center h-48 md:h-56 rounded-t-md"
-              src="academind.png"
+              src="academind.jpg"
             />
             <div className="p-4">
               <h1 className="text-xl font-medium">Symfony API Platform</h1>
